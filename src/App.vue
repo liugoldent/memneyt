@@ -1,13 +1,11 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header class="header">
     <div class="wrapper">
       <nav>
-        <RouterLink to="/table">Table</RouterLink>
+        <!-- <RouterLink to="/list">List</RouterLink> -->
       </nav>
     </div>
   </header>

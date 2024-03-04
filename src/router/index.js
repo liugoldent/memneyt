@@ -4,15 +4,15 @@ import HomeView from '../views/HomeView.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    // {
+    //   path: '/',
+    //   name: 'home',
+    //   component: HomeView,
+    // },
     {
       path: '/',
-      name: 'home',
-      component: HomeView,
-    },
-    {
-      path: '/table',
-      name: 'table',
-      component: () => import('../views/TableView.vue'),
+      name: 'list',
+      component: () => import('../views/ListView.vue'),
     },
   ],
 });
