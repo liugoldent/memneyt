@@ -5,7 +5,6 @@
   <header class="header">
     <div class="wrapper">
       <nav>
-        <!-- <RouterLink to="/list">List</RouterLink> -->
       </nav>
     </div>
   </header>
