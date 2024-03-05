@@ -1,7 +1,13 @@
 <template>
-  <div ref="scrollArea" style="overflow-y: scroll; height: 400px" @scroll="handleScroll">
+  <div
+    ref="scrollArea"
+    style="overflow-y: scroll; height: 400px"
+    @scroll="handleScroll"
+  >
     <ul v-for="(item, index) in items" :key="index">
-      {{ item }}
+      {{
+        item
+      }}
     </ul>
   </div>
 </template>
@@ -75,5 +81,4 @@ export default {
 ul {
   height: 50px;
 }
-
 </style>

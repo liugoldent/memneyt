@@ -1,11 +1,9 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <header class="header">
     <div class="wrapper">
-      <nav>
-      </nav>
+      <nav></nav>
     </div>
   </header>
 
@@ -63,8 +61,6 @@ nav a:first-of-type {
   .logo {
     margin: 0 2rem 0 0;
   }
-
-
 
   nav {
     text-align: left;

@@ -5,7 +5,8 @@ module.exports = {
   root: true,
   'extends': [
     'plugin:vue/vue3-essential',
-    '@vue/eslint-config-airbnb',
+    '@vue/airbnb'
+    // '@vue/eslint-config-airbnb',
   ],
   parserOptions: {
     ecmaVersion: 'latest'
